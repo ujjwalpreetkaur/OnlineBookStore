@@ -1,0 +1,111 @@
+*{
+    margin: 10;
+    padding: 20;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* tag da naa directly likh ke curly brackets shuru krdo te asi styling apply kr skde e */
+.header{
+    background-color: rgba(165, 42, 42, 0.401);
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+/* class name use krn vste . lake fir class namepana e ta fir chaluga styling vala scene */
+.header h1{
+    margin: 10px;
+    color: rgb(83, 3, 3);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav ul li{
+    margin: 0 15px;
+    color: brown;
+}
+nav ul li a{
+    color: rgb(83, 3, 3);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.Main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.Left-frame, .right-frame, .centre-frame{
+    width: 30%;
+    padding: 15px;
+    background: rgb(240, 202, 208);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(20, 43, 53, 77);
+}
+.Left-frame ul{
+    list-style: none;
+}
+.Left-frame li{
+    margin: 10px 0;
+}
+.right-frame{
+    background: rgb(240, 202, 208);
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.401);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* style for catalouge page */
+.catalouge-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.catalouge-table th, .catalouge-table td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+    background: #f4f4f4;
+}
+.catalouge-table tr:nth-child(even){
+    background: #f9f9f9;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* style for login page */
+.login{
+    text-align: center;
+    background-color: seashell;
+    }
+.login .asd{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+
+/* style for registration page */
+.register{
+    text-align: center;
+    justify-content: center;
+    background-color: seashell;
+}
